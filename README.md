@@ -85,3 +85,12 @@ Run the Lumen development server
 The api can now be accessed at
 
     http://localhost:8000
+    
+### API Routes
+| HTTP Method	| Path | Action | Scope | Desciption  |
+| ----- | ----- | ----- | ---- |------------- |
+| GET      | /participants | index | participants:list | Get all participants
+| POST     | /participants | store | participants:create | Create an participant
+| GET      | /participants/{id} | show | participants:read |  Fetch an participant by id
+| PUT      | /participants/{id} | update | participants:write | Update an participant by id
+| DELETE      | /participants/{id} | destroy | participants:delete | Delete an participant by id
